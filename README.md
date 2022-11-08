@@ -20,7 +20,7 @@ It won't just modify files right away, it prompts the user to confirm important 
 
 ## Usage
 
-The simplest way to use it is to put the Snakefy folder into the folder with your *.py files. Then run
+The simplest way to use it is to put the Snakefy folder into the folder with your *.py files. It won't look into subfolders, so if, for example, you have a .venv directory with external modules, they will be left untouched. Then cd into Snakefy and run
 
 ```
 python main.py
